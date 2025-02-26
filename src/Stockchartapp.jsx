@@ -3,7 +3,7 @@ import Papa from "papaparse";
 import { Line } from "react-chartjs-2";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "chart.js/auto";
-import "./StockChartApp.css"; // Custom CSS
+import "./Stockchartapp.css";
 import { Chart } from "chart.js/auto";
 import zoomPlugin from "chartjs-plugin-zoom";
 
