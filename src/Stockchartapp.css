@@ -1,0 +1,66 @@
+.container {
+  max-width: 1200px;
+  background: #b0bac5;
+  border-radius: 1rem;
+}
+
+.sidebar {
+  background: #8096ac;
+  padding: 15px;
+  border-radius: 8px;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.company-list {
+  max-height: 60vh; /* Restrict height */
+  overflow-y: auto; /* Enable vertical scroll */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.company-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.company-list::-webkit-scrollbar-thumb {
+  background: #007bff;
+  border-radius: 3px;
+}
+
+.company-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.list-group-item {
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.list-group-item.active {
+  background: #0056b3;
+  color: #fff;
+}
+
+.d-flex input {
+  max-width: 10rem;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.text-muted {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.chart-container {
+  position: relative;
+  height: 30rem; /* Fixed height */
+  width: 100%;
+}
